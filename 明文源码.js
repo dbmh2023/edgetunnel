@@ -1,7 +1,7 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = 'c7d5dcb4-6ade-41bd-bc5c-4e5d14ee822a';
 let proxyIP = 'ts.hpc.tw:443';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
@@ -23,7 +23,12 @@ let go2Socks5s = [
 	'*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = [];
+let addressesapi = [
+'https://cftxt2kv.pages.dev/addressesapi.txt?token=ibpb',
+'https://raw.githubusercontent.com/dbmh2023/addressesapi/refs/heads/main/ipv4.txt',
+'https://raw.githubusercontent.com/dbmh2023/addressesapi/refs/heads/main/ipv6.txt',
+'https://cmv6.xxxxxxxx.tk/',
+];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
